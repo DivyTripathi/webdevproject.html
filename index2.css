@@ -1,0 +1,122 @@
+ body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;padding:0;
+    box-sizing: border-box;
+    outline:none;border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+.header .footer{
+    width:100%;
+    position:absolute;
+
+    
+}
+    
+.header{
+    height:10vh;
+    margin-top: 10px;
+    left:20%;
+    background:rgb(164, 36, 16);
+    padding:10px;
+}
+.header h2{
+color:#fff;
+font-size: 35px;
+margin-top: 20px;
+    text-align: center;
+}
+.footer{
+
+    height:10vh;
+    bottom:0;
+    background: #95130c;
+    
+    padding:10px; 
+}
+.footer h2{
+    position:absolute;
+    left:30%;
+    text-align: center;
+    
+    
+}
+.container{
+    background: linear-gradient(45deg,rgb(26, 232, 26), rgb(255, 172, 19),rgb(26, 232, 26));
+    padding: 15px 9%;
+    padding-bottom:100px;
+}
+.container .heading{
+    text-align:center;
+    padding-bottom:15px;
+    colour:white;
+    text-shadow:0 5px 10px rgba(0,0,0,,2);
+    font-size: 50px;
+}
+.container .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+}
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background:white;
+    text-align:center;
+    padding: 30px 20px;
+}
+.container .box-container .box img{
+    height:250px;
+    width:250px;
+    max-width: 100%;
+}
+.container .box-container .boxh3{
+    color:#444;
+    font-size: 22px;
+    padding: 10px o;
+}
+.container .box-container .boxp{
+    color:#777;
+    font-size:15px;
+    line-height: 1.8;
+
+}
+.container .box-container .box .btn{
+    margin-top: 10 px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+        border-bottom: #eadee6;
+        background-color: solid #e40d79;
+        color:#f00c9d;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+}
+.container .box-container .box .btn:hover{
+letter-spacing: 1px;
+background-color:rgb(154, 213, 224);
+
+}
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+@media(max-width:768px){
+    .container{
+        padding: 20px;
+    }
+}
+.img-with-shadow{
+    box-shadow:  4px 4px 8x rgba(0, 0, 0, 0.2);
+    box-shadow: #000;
+    width:500px;
+    box-shadow: 0 0 20px black;
+}
+audio{
+    padding-left:40%;
+}
